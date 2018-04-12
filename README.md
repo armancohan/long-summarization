@@ -1,6 +1,7 @@
-Resources for the NAACL 2018 paper "A Discourse-Aware Attention Model for Abstractive Summarization of Long Documents"
 
 #### Data
+
+Two datasets of long and structured documents (scientific papers) are provided. The datasets are obtained from ArXiv and PubMed OpenAccess repositories.
 
 ArXiv dataset: [Download](#)  
 PubMed dataset: [Download](#)
