@@ -1,0 +1,20 @@
+python run_summarization.py \
+--mode=train \
+--data_path=./data/small.bin \
+--vocab_path=./data/vocab \
+--log_root=logroot \
+--exp_name=test-experiment \
+--max_dec_steps=210 \
+--max_enc_steps=2500 \
+--num_sections=5 \
+--max_section_len=500 \
+--batch_size=4 \
+--vocab_size=50000 \
+--use_do=True \
+--optimizer=adagrad \
+--do_prob=0.25 \
+--hier=True \
+--split_intro=True \
+--fixed_attn=True \
+--legacy_encoder=False \
+--coverage=True
