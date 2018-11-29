@@ -17,4 +17,4 @@ python run_summarization.py \
 --split_intro=True \
 --fixed_attn=True \
 --legacy_encoder=False \
---coverage=True
+--coverage=False
