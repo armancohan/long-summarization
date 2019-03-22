@@ -7,7 +7,7 @@ Two datasets of long and structured documents (scientific papers) are provided. 
 ArXiv dataset: [Download](https://drive.google.com/file/d/1K2kDBTNXS2ikx9xKmi2Fy0Wsc5u_Lls0/view?usp=sharing)  
 PubMed dataset: [Download](https://drive.google.com/file/d/1Sa3kip8IE0J1SkMivlgOwq1jBgOnzeny/view?usp=sharing)
 
-The datasets are rather large. You need about 5G disk space to download and about 15G additional space when extracting the files. Each `tar` file consists of 4 files. `train.txt`, `val.txt`, `test.txt` respectively correspond to the training, validation, and test sets. These files are text files where each line is a json object corresponding to one scientific paper from ArXiv or PubMed. The `vocab` file is a plaintext file for the vocabulary. 
+The datasets are rather large. You need about 5G disk space to download and about 15G additional space when extracting the files. Each `tar` file consists of 4 files. `train.txt`, `val.txt`, `test.txt` respectively correspond to the training, validation, and test sets. These files are text files where each line is a json object corresponding to one scientific paper from ArXiv or PubMed. Use the the following script: `scripts/json_to_bin.py` to convert these files into Tensorflow bin files that are used for training. The `vocab` file is a plaintext file for the vocabulary. 
 
 #### Code
 
