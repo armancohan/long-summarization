@@ -28,6 +28,13 @@ The abstract, sections and body are all sentence tokenized. The json objects are
 }
 ```
 
+### Huggingface Datasets:
+
+You can access the dataset in Huggingface datasets library:
+
+https://huggingface.co/datasets/scientific_papers
+
+
 ### Tensorflow datasets
 
 The dataset is also available on [Tensorflow Datasets](https://www.tensorflow.org/datasets/catalog/scientific_papers) which makes it easy to use within Tensorflow or colab.
